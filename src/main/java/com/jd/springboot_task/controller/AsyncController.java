@@ -10,7 +10,7 @@ public class AsyncController {
     @Autowired
     AsyncService asyncService;
 
-    @GetMapping("/hello")
+    @GetMapping("/hello123")
     public String hello(){
       asyncService.hello();
       return "success";
